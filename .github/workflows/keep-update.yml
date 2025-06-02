@@ -1,8 +1,8 @@
-name: Update README Last Update Line
+name: Monthly README Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 매일 자정 (UTC 기준)
+    - cron: '0 0 1 * *'  # 매월 1일 00:00 (UTC)
   workflow_dispatch:
 
 jobs:
